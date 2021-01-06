@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+body{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p,a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+.clear::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+section{
+    padding: 75px;
+}
+
+.col{
+    float: left;
+    width: 45%;
+    padding: 0 25px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+    color: #363958;
+}
+
+.btn{
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%); 
+}
+
+.shadow{
+    box-shadow: 0px 6px 12px -2px rgba(50, 50, 93, 0.25) , 
+                0px 3px 7px -3px rgba(0, 0, 0, 0.3) ;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+navbar ul{
+    list-style: none;
+    padding: 0 25px;
+}
+
+navbar ul li{
+    float: right;
+    padding: 15px;
+}
+
+.section-info h1 span{
+    display: block;
+    color: #FE2178;
+}
+
+.section-info p,
+.section-about p{
+    margin: 15px 0 45px 0;
+}
+
+.section-about .col2{
+    padding-bottom: 45px;
+}
+
+.section-recent{
+    background-color: #e5e5e5;
+}
+
+.section-recent .col,
+.section-service .col{
+    padding: 0;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.section-recent .col1,
+.section-recent .col2,
+.section-service .col1,
+.section-service .col2{
+    margin-right: 5%;
+}
+
+.section-recent .col-container{
+    padding: 15px;
+    background-color: white;    
+    border-radius: 10px;
+}
+
+.section-recent .section-title span,
+.section-service .section-title span{
+    color: #FF237A;
+}
+
+.section-recent h3,
+.section-service h3{
+    padding: 15px 0;
+    color: #363958;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, transparent, #61045F, transparent); 
+    border-image-slice: 1;
+}
+
+.section-service .col-container{
+    padding: 15px;
+}
+
+.section-service img{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.section-chat {
+    padding: 0;
+    margin: 75px 200px;
+    background-image: url("/images/chat-bg.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    padding: 45px 0;
+}
+
+.section-chat .container{
+    padding: 0 25px;
+}
+
+.section-chat .col{
+    width: 43%;
+}
+
+.section-chat .col1 h2{
+    color: #e5e5e5;
+}
+
+.section-chat .col2{
+    float: right;
+    margin-top: 45px;
+    width: auto;
+}
+
+.section-chat .btn{
+    box-shadow: none;
+}
+
+.icon-section{
+    text-align: center;
+    padding-top: 0;
+}
+
+.icon-section .icons{
+    display: inline-block;
+}
+
+.icon-section .icons-container img{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 0 15px;
+}
+
+
+
+
+
+
+
