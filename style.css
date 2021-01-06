@@ -66,6 +66,12 @@ i{
     margin-bottom: 50px;
 }
 
+.bottom-border-img{
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, transparent, #61045F, transparent); 
+    border-image-slice: 1;
+}
+
 navbar ul{
     list-style: none;
     padding: 0 25px;
@@ -87,7 +93,16 @@ navbar ul li{
 }
 
 .section-about .col2{
-    padding-bottom: 45px;
+    padding-bottom: 60px;
+    border-radius: 10px;
+    padding: 15px; 
+    box-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
+}
+
+.section-about .col2 .col-container{
+    padding:0 15px 25px 15px;
+    border-radius: 10px;
+    border: 10px solid transparent; box-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
 }
 
 .section-recent{
@@ -122,10 +137,7 @@ navbar ul li{
 .section-recent h3,
 .section-service h3{
     padding: 15px 0;
-    color: #363958;
-    border-bottom: 1px solid;
-    border-image: linear-gradient(to right, transparent, #61045F, transparent); 
-    border-image-slice: 1;
+    color: #363958;    
 }
 
 .section-service .col-container{
@@ -172,6 +184,12 @@ navbar ul li{
 .icon-section{
     text-align: center;
     padding-top: 0;
+}
+
+.icon-section p{
+    color: #696871;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .icon-section .icons{
