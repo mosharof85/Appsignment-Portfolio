@@ -82,6 +82,11 @@ navbar ul li{
     padding: 15px;
 }
 
+navbar ul li a{
+    font-family: 'Oswald', sans-serif;
+    color: #363958;
+}
+
 .section-info h1 span{
     display: block;
     color: #FE2178;
