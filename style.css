@@ -16,9 +16,7 @@ img{
     width: 100%;
 }
 
-.clear::after{
-    content: '';
-    display: block;
+.clearfix{
     clear: both;
 }
 
