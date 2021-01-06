@@ -72,17 +72,17 @@ i{
     border-image-slice: 1;
 }
 
-navbar ul{
+.navbar ul{
     list-style: none;
     padding: 0 25px;
 }
 
-navbar ul li{
+.navbar ul li{
     float: right;
     padding: 15px;
 }
 
-navbar ul li a{
+.navbar ul li a{
     font-family: 'Oswald', sans-serif;
     color: #363958;
 }
