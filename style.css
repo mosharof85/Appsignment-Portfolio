@@ -135,7 +135,7 @@ navbar ul li{
 .section-chat {
     padding: 0;
     margin: 75px 200px;
-    background-image: url("/images/chat-bg.png");
+    background-image: url("images/chat-bg.png");
     background-size: cover;
     background-position: center;
     border-radius: 20px;
